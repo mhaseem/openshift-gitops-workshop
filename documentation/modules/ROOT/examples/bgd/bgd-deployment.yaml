@@ -10,8 +10,7 @@ spec:
   selector:
     matchLabels:
       app: bgd
-  strategy:
-    type: Recreate
+  strategy: {}
   template:
     metadata:
       labels:
