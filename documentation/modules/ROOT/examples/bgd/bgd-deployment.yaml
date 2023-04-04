@@ -6,7 +6,7 @@ metadata:
     app: bgd
   name: bgd
 spec:
-  replicas: 3
+  replicas: 10
   selector:
     matchLabels:
       app: bgd
@@ -21,6 +21,6 @@ spec:
         name: bgd
         env:
         - name: COLOR
-          value: "green"
+          value: "pink"
         resources: {}
 ---
