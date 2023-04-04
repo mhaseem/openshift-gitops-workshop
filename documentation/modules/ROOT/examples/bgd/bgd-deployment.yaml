@@ -13,14 +13,6 @@ spec:
   strategy: {}
   template:
     metadata:
-      labels:
-        app: bgd
-    spec:
-      containers:
-      - image: quay.io/rhdevelopers/bgd:10.0.0
-        name: bgd
-        env:
-        - name: COLOR
-          value: "boy"
+      l
         resources: {}
 ---
